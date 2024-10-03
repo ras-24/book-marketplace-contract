@@ -1,0 +1,124 @@
+{
+	"compiler": {
+		"version": "0.8.27+commit.40a35a09"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_bookName",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_bookPrice",
+						"type": "uint256"
+					}
+				],
+				"name": "addBook",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "allBooks",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "id",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "bookName",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "bookPrice",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address",
+						"name": "bookOwner",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "bookId",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_id",
+						"type": "uint256"
+					}
+				],
+				"name": "buyBook",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/BookMarketplace.sol": "bookMarketplace"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/BookMarketplace.sol": {
+			"keccak256": "0x90c23a64d8369a38dfb6c691c771074cda69a4b6932a55f730af309fc3b1a7e8",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://3cf02f012b55bb0fcde4300bfd3afd390e72f9f418e151684f68bb7a7ea10be1",
+				"dweb:/ipfs/QmWiRHgTNjQzbBVwKdMzttY2MbN3jd5ezLAoTh4JR2RPwD"
+			]
+		}
+	},
+	"version": 1
+}
