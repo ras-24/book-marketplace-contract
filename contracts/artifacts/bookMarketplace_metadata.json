@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.27+commit.40a35a09"
+		"version": "0.8.26+commit.8a97fa7a"
 	},
 	"language": "Solidity",
 	"output": {
@@ -112,11 +112,11 @@
 	},
 	"sources": {
 		"contracts/BookMarketplace.sol": {
-			"keccak256": "0x90c23a64d8369a38dfb6c691c771074cda69a4b6932a55f730af309fc3b1a7e8",
+			"keccak256": "0xce1bf4913b2495276a921d02c58d945195f3f5b5066c9265f3ac005266641fe3",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://3cf02f012b55bb0fcde4300bfd3afd390e72f9f418e151684f68bb7a7ea10be1",
-				"dweb:/ipfs/QmWiRHgTNjQzbBVwKdMzttY2MbN3jd5ezLAoTh4JR2RPwD"
+				"bzz-raw://d1c2977e84678a8e4d89310bfce40d8bf00ee376696c0206f5ed164e5e488200",
+				"dweb:/ipfs/QmaSrN1uUanxW5MSS3WvX8MG15a1vg3Cc4Ut7MXQHQhVUB"
 			]
 		}
 	},
