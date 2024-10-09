@@ -1,4 +1,4 @@
-REMIX DEFAULT WORKSPACE
+Book Marketplace Contract
 
 Remix default workspace is present when:
 i. Remix loads for the very first time 
