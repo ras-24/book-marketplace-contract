@@ -5,7 +5,7 @@ Book Marketplace Smart Contract
 1. **Add Book** -> Add book to array storage.
 2. **All Books** -> Show all books on the storage.
 3. **Buy Book** -> Buy one book.
-4. **Book Id** -> Show book Id.
+4. **Book ID** -> Show usable book ID.
 
 ### Prerequisites
 1. This project runs on [Remix IDE](https://remix.ethereum.org)
